@@ -1,0 +1,72 @@
+body{
+    font-family: Roboto,sans-serif;
+     background-color: #84A5D4;
+     display: flex;
+     justify-content: center;
+      align-items: center;
+
+}
+
+.container {
+
+    border-radius: 8px;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    max-width: 80%;
+    background-color: #FAFAFA;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.container .service {
+    margin:10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.container .service:hover{
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+.container .service .service-title{
+    color: #5971D7;
+    font-weight: bold;
+}
+
+.container .service .service-image{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.container .service .service-body{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    color: #A3A6AA;
+}
+
+.container .service .service-footer {
+    color: #5971D7;
+    position: relative;
+    font-size: 45px;
+    font-weight: bolder;
+    top: -20px;
+}
+.container .service .service-footer .currency{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-size: 20px;
+}
+.container .service .service-footer .period{
+    font-size: 20px;
+}
+
+
+
